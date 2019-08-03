@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>大经中医</title>
+		<link rel="stylesheet" type="text/css" href="static/css/mui.css"/>
+		<link rel="stylesheet" type="text/css" href="static/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/header.css"/>
+    <script>
+      localStorage.setItem('authorization','7116540b368ff8013d1dbd267b561176');
+      localStorage.setItem('uId','131')
+    </script>
+		
+	</head>
+	<body>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
+</html>
+
+<script>
+	//控制rem大小
+	window.onload = function() {
+    document.documentElement.style.fontSize =
+			document.documentElement.clientWidth / 7.5 + 'px';
+		//企图改变浏览器大小
+		window.addEventListener("resize", function() {
+			document.documentElement.style.fontSize =
+				document.documentElement.clientWidth / 7.5 + 'px';
+		})
+	}
+</script>
